@@ -1,5 +1,10 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
         diff = dict()
         
         for i in range(len(nums)):
@@ -7,4 +12,5 @@ class Solution:
                 return [diff[nums[i]], i]
             else:
                 diff[target - nums[i]] = i
-                       
+                
+                
