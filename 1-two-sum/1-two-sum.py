@@ -8,4 +8,4 @@ class Solution:
             else:
                 diff[target - nums[i]] = i
                 
-                
+        diff += 1        
