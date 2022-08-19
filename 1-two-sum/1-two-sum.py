@@ -7,5 +7,4 @@ class Solution:
                 return [diff[nums[i]], i]
             else:
                 diff[target - nums[i]] = i
-                
-        diff += 1        
+                       
