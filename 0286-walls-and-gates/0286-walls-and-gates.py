@@ -1,8 +1,7 @@
-class Solution(object):
-    def wallsAndGates(self, rooms):
+class Solution:
+    def wallsAndGates(self, rooms: List[List[int]]) -> None:
         """
-        :type rooms: List[List[int]]
-        :rtype: None Do not return anything, modify rooms in-place instead.
+        Do not return anything, modify rooms in-place instead.
         """
         row_count = len(rooms)
         if row_count == 0:
